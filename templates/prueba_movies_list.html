@@ -2,15 +2,16 @@
 
 {% block body %}
 
-	{% for m in movies %}
-		
-          <h4>
-          	
-          	{{ m.text.encode('utf8') }}
-			
-          </h4>
-          
-       
-
+	{% for x in users %}
+		<div class="col-lg-6 table-bordered">
+      <h4>
+      	
+      	{{ x['name'] }}
+	
+      </h4>
+      <p>
+      	Problems Solved: {{ x['solved']}}
+      </p>
+    </div>
 	{% end %}
 {% end %}
