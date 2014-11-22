@@ -1,0 +1,16 @@
+{% extends "prueba_layout.html" %}
+
+{% block body %}
+
+	{% for m in movies %}
+		
+          <h4>
+          	
+          	{{ m.text.encode('utf8') }}
+			
+          </h4>
+          
+       
+
+	{% end %}
+{% end %}
