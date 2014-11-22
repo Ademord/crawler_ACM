@@ -1,14 +1,14 @@
-import tornado.template
-import os
+#import tornado.template
+#import os
 from bs4 import BeautifulSoup
 from bs4 import UnicodeDammit
 import requests
-import sys
-loader = tornado.template.Loader(os.path.join(os.getcwd(), "templates"))
+#import sys
+#loader = tornado.template.Loader(os.path.join(os.getcwd(), "templates"))
 
-class Templates(object):
+#class Templates(object):
 	#users list
-	movies_list = loader.load("prueba_movies_list.html")
+	#movies_list = loader.load("prueba_movies_list.html")
 	
 class User(object):
 	def getAcceptedIds(user_link):
